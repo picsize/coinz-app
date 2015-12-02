@@ -4,7 +4,7 @@ var include = {
 	},
 	scriptGroups:{
 		'lib':{
-		    'lib/widgets': ['spin', 'online', 'pg-plugin-screen-orientation'],
+		    'lib/widgets': ['spin', 'online'/*, 'pg-plugin-screen-orientation'*/],
 			'lib/jquery':['jquery-1.11.0.min','jquery-ui-1.10.4.min',
 			              'jquery.json-2.4','jquery.ui.touch-punch.min','jquery.jrumble.1.3.min',
                 'jquery.textpopup', 'jquery.flexcal', 'jquery.flexcal.format', 'jquery.ui.subclass']
