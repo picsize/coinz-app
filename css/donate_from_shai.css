@@ -1,0 +1,567 @@
+﻿#donatePage .secondary_title {
+    text-align: center;
+    font-size: 22px;
+    margin-top: 13px;
+    margin-bottom: 12px;
+    color: #600723;
+}
+
+#donatePage #header {
+    z-index: 5000;
+}
+
+#donatePage .container {
+    position: fixed;
+    top: 1%;
+    float: left;
+    left: 1%;
+    width: 100%;
+    height: 92%;
+    z-index: 2000;
+}
+
+#donatePage #content {
+    font: "SPACER REGULAR";
+    width: 100%;
+    float: right;
+    background-color: #EFEFEF;
+    position: static;
+    top: 11%;
+}
+
+#donatePage #contentImg {
+    background-image: url('../images/Donation/donation_screen_bg.png');
+    background-repeat: no-repeat;
+    float: left;
+    top: 19%;
+    left: -1%;
+    background-size: contain;
+    width: 100%;
+    height: 70%;
+    position: absolute;
+    background-position-x: center;
+}
+
+#donatePage #donate_label {
+    color: #ffffff;
+    margin-top: -6%;
+    margin-right: auto;
+    text-align: center;
+    float: none;
+}
+
+#donatePage .coins {
+    float: left;
+    width: 99%;
+    position: absolute;
+    top: 28%;
+    bottom: -25%;
+}
+
+
+#donatePage .donationArea {
+    position: absolute;
+    bottom: 3%;
+    left: 33%;
+    float: left;
+    width: 33%;
+    height: 20%;
+    top: 57%;
+}
+
+#donatePage .coins img {
+    width: 20%;
+    margin-left: 0;
+    margin-top: 4%;
+    margin-right: 3%;
+    vertical-align: -webkit-baseline-middle;
+    background-size: cover;
+}
+
+#donatePage #resetBtn {
+    background-image: url("../images/Donation/donate_screen_reset.png");
+    background-repeat: no-repeat;
+    border: none;
+    background-size: contain;
+    left: 27%;
+    top: 49%;
+    float: right;
+    width: 22%;
+    height: 8%;
+    background-color: transparent;
+    position: absolute;
+}
+
+#donatePage #approveBtn {
+    background-image: url("../images/Donation/approve.png");
+    background-repeat: no-repeat;
+    border: none;
+    background-size: contain;
+    left: 50%;
+    top: 86%;
+    float: right;
+    width: 22%;
+    height: 7%;
+    background-color: transparent;
+    position: absolute;
+}
+
+
+#donatePage #kupaSumText {
+    left: 62%;
+    top: 86%;
+    float: right;
+    font: "SPACER REGULAR";
+    text-align: center;
+    width: 35%;
+    position: absolute;
+}
+
+#donatePage #sendKupaToPayment {
+    background-image: url("../images/Donation/pay_h.png");
+    background-repeat: no-repeat;
+    border: none;
+    background-size: contain;
+    position: absolute;
+    width: 23%;
+    height: 7%;
+    background-color: transparent;
+    right: 75%;
+    top: 86%;
+}
+
+#donatePage #coin_other {
+    float: left;
+    width: 23%;
+    top: 19%;
+    position: absolute;
+    left: 37%;
+    z-index: 100;
+}
+
+.readyToMove {
+    margin-left: 10%;
+    float: left;
+    width: 23%;
+    margin-top: -5%;
+}
+
+#donatePage #coin_10 {
+    left: -1%;
+    top: 44%;
+    float: right;
+    width: 23%;
+    position: absolute;
+    z-index: 105;
+}
+
+#donatePage #coin_5 {
+    float: left;
+    width: 23%;
+    top: 28%;
+    position: absolute;
+    left: 9%;
+    z-index: 100;
+}
+
+#donatePage #coin_2 {
+    left: 67%;
+    float: left;
+    width: 23%;
+    top: 60%;
+    position: absolute;
+    z-index: 100;
+}
+
+#donatePage #coin_1 {
+    left: 8%;
+    float: left;
+    width: 20%;
+    top: 61%;
+    position: absolute;
+    z-index: 100;
+}
+
+#donatePage #coin_0_5 {
+    left: 76%;
+    top: 44%;
+    float: left;
+    width: 23%;
+    position: absolute;
+    z-index: 100;
+}
+
+#donatePage #kupaTotal {
+    background-image: url("../images/Donation/donation_amount_heb.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: transparent;
+    font-size: 25px;
+    position: absolute;
+    top: 86%;
+    left: 25%;
+    border: none;
+    height: 7%;
+    text-indent: 0.5em;
+    float: right;
+    font: "SPACER REGULAR";
+    text-align: center;
+    width: 25%;
+    line-height: 2.5em;
+    overflow: hidden;
+}
+
+#donatePage #donateTargetOne {
+    left: 47%;
+    float: left;
+    top: 15%;
+    position: absolute;
+}
+
+#donatePage #charityImg {
+    float: left;
+    width: 92%;
+    top: 0%;
+    left: 0%;
+    height: 100%;
+    position: absolute;
+    z-index: 95;
+}
+
+#donatePage #coin_0_1 {
+    left: 69%;
+    float: left;
+    width: 23%;
+    top: 28%;
+    position: absolute;
+    z-index: 100;
+}
+
+#donatePage #confirmDonate {
+    background-image: url("../images/Donation/confirm.png");
+    background-repeat: no-repeat;
+    border: none;
+    background-size: contain;
+    position: absolute;
+    width: 44%;
+    height: 9%;
+    background-color: transparent;
+    right: 28%;
+    top: 84%;
+}
+
+#otherDonate * {
+    margin-left: 7%;
+    float: left;
+    width: 23%;
+}
+
+#donatePage #multiplyForm img {
+    width: 60px;
+}
+
+#donatePage #multiplyForm label {
+    margin-top: 20px;
+    margin-right: 13px;
+    font-size: 18px;
+    color: #600723;
+}
+
+#donatePage #multiplyForm input,
+#donatePage #otherDonate input {
+    margin-top: 12px;
+    width: 70px;
+    margin-right: 11px;
+    font-size: 15px;
+    border: 1px solid #600723;
+    border-radius: 15px;
+    padding: 7px;
+}
+
+#donatePage #otherDonate input {
+    width: 120px;
+    margin-right: 15px;
+}
+
+#donatePage #multiplyForm button,
+#donatePage #otherDonate button {
+    border-radius: 13px;
+    border: 0;
+    padding: 6px 15px;
+    margin-top: 13px;
+    color: #ffffff;
+    font-size: 16px;
+    background-color: #600723;
+    float: left;
+}
+
+#donatePage #otherDonate {
+    margin-top: 15px;
+}
+
+#donatePage #donationNote {
+    background-image: url("../images/Donation/hakdasha_btn.png");
+    width: 40%;
+    font-size: 90%;
+    position: absolute;
+    top: 12%;
+    right: 7.5%;
+    border: none;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-color: #EFEFEF;
+    height: 6%;
+    /* text-indent: 0.9em; */
+    display: inline-block;
+    padding: 0.5% 0 2% 0;
+    outline: none;
+}
+
+#donatePage #moneyType {
+    background-image: url("../images/Donation/choose_coin_btn.png");
+    width: 40%;
+    font-size: 90%;
+    position: absolute;
+    top: 12%;
+    left: 4.5%;
+    border: none;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-color: #EFEFEF;
+    height: 6%;
+    text-indent: 0.9em;
+    display: inline-block;
+    padding: 0.5% 9% 2% 0;
+    outline: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+
+#donatePage .cashier {
+    position: absolute;
+    bottom: 3%;
+    left: 30%;
+    z-index: 5;
+    float: left;
+    width: 50px;
+    height: 24%;
+}
+
+#donatePage #cashierWrap {
+    position: absolute;
+    float: left;
+    width: 34%;
+    height: 22%;
+    top: 62%;
+    left: 32%;
+}
+
+/*Note Page*/
+#notePage {
+    visibility: hidden;
+}
+
+    #notePage #header {
+        z-index: 5000;
+    }
+
+    #notePage .container {
+        position: fixed;
+        top: 1%;
+        float: left;
+        left: 1%;
+        width: 100%;
+        height: 92%;
+        z-index: 2000;
+    }
+
+    #notePage #content {
+        font: "SPACER REGULAR";
+        width: 100%;
+        float: right;
+        background-color: #EFEFEF;
+        position: static;
+        top: 11%;
+    }
+
+        #notePage #content h2 {
+            position: absolute;
+            text-align: center;
+            width: 100%;
+            font-size: 100%;
+            top: 15%;
+        }
+
+    #notePage #contentImg {
+        background-image: url('../images/Donation/donation_screen_bg.png');
+        background-repeat: no-repeat;
+        float: left;
+        top: 19%;
+        left: -1%;
+        background-size: contain;
+        width: 100%;
+        height: 70%;
+        position: absolute;
+        background-position-x: center;
+    }
+
+    #notePage #textareaHolder {
+        width: 100%;
+        position: absolute;
+        top: 25%;
+        text-align: center;
+    }
+
+    #notePage #noteHolder {
+        background-image: url('../../../../../../../../../../../../../Downloads/beitHatavshil/images/Main/backgroundB.png');
+        background-size: 100% 100%;
+        height: 200px;
+        width: 80%;
+        padding: 5%;
+        margin: 0 auto;
+        outline: none;
+    }
+
+    #notePage #goBack {
+        width: 20%;
+        height: 6%;
+        border: none;
+        background: transparent;
+        background-image: url('../../../../../../../../../../../../../Downloads/beitHatavshil/images/Buttons/back.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    #notePage #saveNote {
+        width: 20%;
+        height: 6%;
+        border: none;
+        background: transparent;
+        background-image: url('../images/Donation/approve.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+        position: absolute;
+        left: 0;
+        top: 80%;
+    }
+
+
+/*Kaparot*/
+#rooster {
+    position: absolute;
+    top: 9%;
+    z-index: 99;
+    width: 48%;
+    height: 26%;
+    right: 3%;
+}
+
+#donationNote.kaparot {
+    top: 19.5% !important;
+    right: 55.5% !important;
+    width: 40% !important;
+    padding: 0.5% 0 1% 0 !important;
+}
+
+
+#coin_other.kaparot {
+    background-image: url("../images/Donation/hakdasha_btn.png");
+    font-size: 90%;
+    border: none;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-color: #EFEFEF;
+    height: 6%;
+    display: inline-block;
+    padding: 0.5% 0 1% 0;
+    outline: none;
+    width: 40% !important;
+    top: 27% !important;
+    left: 4.5% !important;
+    float: left;
+}
+
+hr {
+    position: absolute;
+    width: 90%;
+    top: 35%;
+    left: 5%;
+}
+
+#nosach {
+    position: absolute;
+    top: 44%;
+    left: 0;
+    width: 98%;
+}
+
+/*Parnes Yom*/
+#vilon {
+    position: absolute;
+    top: 14%;
+    left: -1%;
+    width: 100%;
+    z-index: -1;
+}
+
+#calendarContainer {
+    visibility: hidden;
+    z-index: 99999;
+    position: absolute;
+    left: -1%;
+    top: 30%;
+    width: 100%;
+    text-align: center;
+}
+
+    #calendarContainer.bigCal {
+        height: 500px !important;
+    }
+
+        #calendarContainer.bigCal > .ui-tabs {
+            width: 80% !important;
+            margin: 0 auto;
+            height: 500px !important;
+        }
+
+            #calendarContainer.bigCal > .ui-tabs div:not([dir="auto"]){
+                width: 100% !important;
+                height: 500px !important;
+            }
+
+                #calendarContainer.bigCal > .ui-tabs div:not([dir="auto"]) table {
+                    height: auto !important;
+                    width: 100% !important;
+                }
+
+    #calendarContainer.bigCal > .ui-tabs div:not([dir="auto"]) table tr td a {
+          height: 100% !important;
+          font-size:25px !important;
+          padding: 30% !important; 
+    }
+
+        #calendarContainer.bigCal .go {
+            -moz-transform: scale(2) rotate(180deg);
+            -ms-transform: scale(2) rotate(180deg);
+            -o-transform: scale(2) rotate(180deg);
+            -webkit-transform: scale(2) rotate(180deg);
+            transform: scale(2) rotate(180deg);
+            top:6px !important;
+        }
+
+        #calendarContainer.bigCal .go.ui-datepicker-prev {
+              right: 2%;
+        }
+
+        #calendarContainer.bigCal .go.ui-datepicker-next {
+              left: 2%;
+        }
+
+        #calendarContainer.bigCal table caption {
+            line-height:2.52em !important;
+        }
+
+            #calendarContainer.bigCal table caption span, #calendarContainer.bigCal table thead th span  {
+                font-size:25px;
+            }

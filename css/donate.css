@@ -1,0 +1,915 @@
+﻿#donatePage .secondary_title {
+    text-align: center;
+    font-size: 22px;
+    margin-top: 13px;
+    margin-bottom: 12px;
+    color: #600723;
+}
+
+#donatePage #header {
+    z-index: 5000;
+}
+
+#donatePage .container {
+    position: fixed;
+    top: 1%;
+    float: left;
+    left: 1%;
+    width: 100%;
+    height: 92%;
+    z-index: 2000;
+}
+
+#donatePage #content {
+    font: "SPACER REGULAR";
+    width: 100%;
+    float: right;
+    background-color: #EFEFEF;
+    position: static;
+    top: 11%;
+}
+
+#donatePage #contentImg {
+    background-image: url('../images/Donation/donation_screen_bg.png');
+    background-repeat: no-repeat;
+    float: left;
+    top: 19%;
+    left: -1%;
+    background-size: contain;
+    width: 100%;
+    height: 70%;
+    position: absolute;
+    background-position-x: center;
+}
+
+#donatePage #donate_label {
+    color: #ffffff;
+    margin-top: -6%;
+    margin-right: auto;
+    text-align: center;
+    float: none;
+}
+
+#donatePage .coins {
+    float: left;
+    width: 99%;
+    position: absolute;
+    top: 28%;
+    bottom: -25%;
+}
+
+
+#donatePage .donationArea {
+    position: absolute;
+    bottom: 3%;
+    left: 33%;
+    float: left;
+    width: 33%;
+    height: 20%;
+    top: 57%;
+}
+
+#donatePage .coins img {
+    width: 20%;
+    margin-left: 0;
+    margin-top: 4%;
+    margin-right: 3%;
+    vertical-align: -webkit-baseline-middle;
+    background-size: cover;
+}
+
+#donatePage #resetBtn {
+    background-image: url("../images/Donation/donate_screen_reset.png");
+    background-repeat: no-repeat;
+    border: none;
+    background-size: contain;
+    left: 27%;
+    top: 49%;
+    float: right;
+    width: 22%;
+    height: 8%;
+    background-color: transparent;
+    position: absolute;
+}
+
+#donatePage #pickCoinText {
+    left: 31%;
+    top: 45%;
+    float: right;
+    font: "SPACER REGULAR";
+    text-align: center;
+    width: 38%;
+    position: absolute;
+}
+
+    #donatePage #pickCoinText.poundBills {
+        left: 31%;
+        top: 42%;
+        float: right;
+        font: "SPACER REGULAR";
+        text-align: center;
+        width: 38%;
+        position: absolute;
+    }
+
+
+#donatePage #approveBtn, #approveBtnEuro, #approveBtnPounds, #approveBtnUSD, #approveBtnNISBils {
+    background-image: url("../images/Donation/approve.png");
+    background-repeat: no-repeat;
+    border: none;
+    background-size: contain;
+    left: 50%;
+    top: 86%;
+    float: right;
+    width: 22%;
+    height: 7%;
+    background-color: transparent;
+    position: absolute;
+}
+
+
+#donatePage #kupaSumText {
+    left: 62%;
+    top: 86%;
+    float: right;
+    font: "SPACER REGULAR";
+    text-align: center;
+    width: 35%;
+    position: absolute;
+}
+
+#donatePage #balanceSum {
+    background-image: url("../images/Donation/donation_amount_heb.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: transparent;
+    font-size: 25px;
+    position: absolute;
+    left: 73%;
+    border: none;
+    height: 7%;
+    text-indent: 0.5em;
+    /* margin-right: 27%; */
+    top: 86%;
+    float: right;
+    font: "SPACER REGULAR";
+    text-align: center;
+    width: 25%;
+    line-height: 1.9em;
+    overflow: hidden;
+}
+
+#donatePage #kupaTotal {
+    background-image: url("../images/Donation/donation_amount_heb.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: transparent;
+    font-size: 25px;
+    position: absolute;
+    top: 86%;
+    left: 25%;
+    border: none;
+    height: 7%;
+    text-indent: 0.5em;
+    float: right;
+    font: "SPACER REGULAR";
+    text-align: center;
+    width: 25%;
+    line-height: 2.5em;
+    overflow: hidden;
+}
+
+/*
+#donatePage .ils:after, #donatePage .euro:after, #donatePage .usd:after, #donatePage .gbl:after {
+    position: absolute;
+    left: 5%;
+    font-size: 70%;
+}
+
+#donatePage .ils:after {
+    content: '₪';
+}
+
+#donatePage .euro:after {
+    content: '€';
+}
+
+#donatePage .usd:after {
+    content: '$';
+}
+
+#donatePage .gbl:after {
+    content: '£';
+}
+*/
+
+#donatePage #sendKupaToPayment {
+    background-image: url("../images/Donation/pay_h.png");
+    background-repeat: no-repeat;
+    border: none;
+    background-size: contain;
+    position: absolute;
+    width: 23%;
+    height: 7%;
+    background-color: transparent;
+    right: 75%;
+    top: 86%;
+}
+
+#donatePage #coin_other {
+    float: left;
+    width: 23%;
+    top: 19%;
+    position: absolute;
+    left: 37%;
+    z-index: 100;
+}
+
+.readyToMove {
+    margin-left: 10%;
+    float: left;
+    width: 23%;
+    margin-top: -5%;
+}
+
+#donatePage #coin_10 {
+    left: -1%;
+    top: 44%;
+    float: right;
+    width: 23%;
+    position: absolute;
+    z-index: 105;
+}
+
+#donatePage #coin_5 {
+    float: left;
+    width: 23%;
+    top: 28%;
+    position: absolute;
+    left: 9%;
+    z-index: 100;
+}
+
+#donatePage #coin_2 {
+    left: 67%;
+    float: left;
+    width: 23%;
+    top: 60%;
+    position: absolute;
+    z-index: 100;
+}
+
+#donatePage #coin_1 {
+    left: 8%;
+    float: left;
+    width: 20%;
+    top: 61%;
+    position: absolute;
+    z-index: 100;
+}
+
+#donatePage #coin_0_5 {
+    left: 76%;
+    top: 44%;
+    float: left;
+    width: 23%;
+    position: absolute;
+    z-index: 100;
+}
+
+
+#donatePage #coin_0_1 {
+    left: 69%;
+    float: left;
+    width: 23%;
+    top: 28%;
+    position: absolute;
+    z-index: 100;
+}
+
+/* Bills screens */
+
+#donatePage #coin_10.shekelBills {
+    left: -1%;
+    top: 44%;
+    float: right;
+    width: 37%;
+    height: 17%;
+    position: absolute;
+    z-index: 105;
+}
+
+#donatePage #coin_10.euroBills {
+    left: -1%;
+    top: 44%;
+    float: right;
+    width: 27%;
+    height: 17%;
+    position: absolute;
+    z-index: 105;
+}
+
+#donatePage #coin_10.poundBills {
+    left: -1%;
+    top: 44%;
+    float: right;
+    width: 38%;
+    height: 17%;
+    position: absolute;
+    z-index: 105;
+}
+
+#donatePage #coin_5.shekelBills {
+    float: left;
+    width: 37%;
+    height: 17%;
+    top: 28%;
+    position: absolute;
+    left: 7%;
+    z-index: 100;
+}
+
+#donatePage #coin_5.euroBills {
+    float: left;
+    width: 27%;
+    height: 17%;
+    top: 28%;
+    position: absolute;
+    left: 1%;
+    z-index: 100;
+}
+
+#donatePage #coin_5.poundBills {
+    float: left;
+    width: 40%;
+    height: 17%;
+    top: 28%;
+    position: absolute;
+    left: 7%;
+    z-index: 100;
+}
+
+#donatePage #coin_5.usdBills {
+    width: 18%;
+}
+
+#donatePage #coin_0_1.shekelBills {
+    left: 54%;
+    float: left;
+    width: 37%;
+    height: 17%;
+    top: 28%;
+    position: absolute;
+    z-index: 100;
+}
+
+#donatePage #coin_0_1.euroBills {
+    left: 65%;
+    float: left;
+    width: 27%;
+    height: 17%;
+    top: 28%;
+    position: absolute;
+    z-index: 100;
+}
+
+#donatePage #coin_0_1.poundBills {
+    left: 52%;
+    float: left;
+    width: 41%;
+    height: 18%;
+    top: 28%;
+    position: absolute;
+    z-index: 100;
+}
+
+#donatePage #coin_0_5.shekelBills {
+    left: 61%;
+    top: 44%;
+    height: 17%;
+    float: left;
+    width: 38%;
+    position: absolute;
+    z-index: 100;
+}
+
+#donatePage #coin_0_5.euroBills {
+    left: 67%;
+    top: 44%;
+    height: 17%;
+    float: left;
+    width: 27%;
+    position: absolute;
+    z-index: 100;
+}
+
+#donatePage #coin_0_5.poundBills {
+    left: 60%;
+    top: 44%;
+    height: 18%;
+    float: left;
+    width: 38%;
+    position: absolute;
+    z-index: 100;
+}
+
+#donatePage #coin_2.euroBills {
+    left: 67%;
+    top: 58%;
+    height: 17%;
+    float: left;
+    width: 27%;
+    position: absolute;
+    z-index: 100;
+}
+
+#donatePage #coin_2.usdBills {
+    left: 67%;
+    float: left;
+    width: 26%;
+    top: 60%;
+    position: absolute;
+    z-index: 100;
+}
+
+#donatePage #coin_1.euroBills {
+    left: 1%;
+    top: 58%;
+    height: 17%;
+    float: left;
+    width: 27%;
+    position: absolute;
+    z-index: 100;
+}
+
+.euroBills {
+    height: 10% !important;
+}
+
+
+
+/* parnas */
+#donatePage #coin_1.parnas {
+    left: 4%;
+    float: left;
+    width: 23%;
+    top: 69%;
+    position: absolute;
+    z-index: 100;
+}
+
+#donatePage #coin_2.parnas {
+    left: 70%;
+    float: left;
+    width: 25%;
+    top: 67%;
+    position: absolute;
+    z-index: 100;
+}
+
+#donatePage #donateTargetOne {
+    left: 47%;
+    float: left;
+    top: 15%;
+    position: absolute;
+}
+
+#donatePage #charityImg {
+    float: left;
+    width: 92%;
+    top: 0%;
+    left: 0%;
+    height: 100%;
+    position: absolute;
+    z-index: 95;
+}
+
+#donatePage #confirmDonate {
+    background-image: url("../images/Donation/confirm.png");
+    background-repeat: no-repeat;
+    border: none;
+    background-size: contain;
+    position: absolute;
+    width: 44%;
+    height: 9%;
+    background-color: transparent;
+    right: 28%;
+    top: 84%;
+}
+
+#otherDonate * {
+    margin-left: 7%;
+    float: left;
+    width: 23%;
+}
+
+#donatePage #multiplyForm img {
+    width: 60px;
+}
+
+#donatePage #multiplyForm label {
+    margin-top: 20px;
+    margin-right: 13px;
+    font-size: 18px;
+    color: #600723;
+}
+
+#donatePage #multiplyForm input,
+#donatePage #otherDonate input {
+    margin-top: 12px;
+    width: 70px;
+    margin-right: 11px;
+    font-size: 15px;
+    border: 1px solid #600723;
+    border-radius: 15px;
+    padding: 7px;
+}
+
+#donatePage #otherDonate input {
+    width: 120px;
+    margin-right: 15px;
+}
+
+#donatePage #multiplyForm button,
+#donatePage #otherDonate button {
+    border-radius: 13px;
+    border: 0;
+    padding: 6px 15px;
+    margin-top: 13px;
+    color: #ffffff;
+    font-size: 16px;
+    background-color: #600723;
+    float: left;
+}
+
+#donatePage #otherDonate {
+    margin-top: 15px;
+}
+
+#donatePage #donationNote {
+    background-image: url("../images/Donation/hakdasha_btn.png");
+    width: 40%;
+    font-size: 90%;
+    position: absolute;
+    top: 12%;
+    right: 7.5%;
+    border: none;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-color: #EFEFEF;
+    height: 6%;
+    /* text-indent: 0.9em; */
+    display: inline-block;
+    padding: 0.5% 0 2% 0;
+    outline: none;
+}
+
+#donatePage #moneyType {
+    background-image: url("../images/Donation/choose_coin_btn.png");
+    width: 40%;
+    font-size: 90%;
+    position: absolute;
+    top: 12%;
+    left: 4.5%;
+    border: none;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-color: #EFEFEF;
+    height: 6%;
+    text-indent: 0.9em;
+    display: inline-block;
+    padding: 0.5% 9% 2% 0;
+    outline: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+
+#donatePage .cashier {
+    position: absolute;
+    bottom: 3%;
+    left: 30%;
+    z-index: 5;
+    float: left;
+    width: 50px;
+    height: 24%;
+}
+
+#donatePage #cashierWrap {
+    position: absolute;
+    float: left;
+    width: 34%;
+    height: 22%;
+    top: 62%;
+    left: 32%;
+}
+
+/*Note page*/
+
+#donation_details {
+    display: none;
+    padding-top: 0%;
+    padding-bottom: 0%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: right;
+    margin-top: 18%;
+}
+
+    #donation_details #goBack {
+        background-image: url('../images/Buttons/back.png');
+        background-size: contain;
+        width: 100%;
+        float: left;
+        /* height: 5%; */
+        background-repeat: no-repeat;
+        top: 19%;
+        /* margin-bottom: 0%; */
+        position: absolute;
+    }
+
+    #donation_details #stripContainer {
+        background-color: #EFEFEF;
+        position: fixed;
+        height: 9%;
+        float: left;
+        width: 100%;
+        top: 10%;
+        z-index: 100;
+    }
+
+    #donation_details #donationTextTitle {
+        font-family: "SPACER BOLD";
+        /* padding: 1% 13% 10% 10%; */
+        font-size: 32px;
+        color: grey;
+        color: #666565;
+        top: 24%;
+        position: absolute;
+        float: left;
+        /* left: 13%; */
+        width: 100%;
+        text-align: center;
+    }
+
+    #donation_details #donationFrame {
+        text-align: right;
+        overflow: hidden;
+        overflow-y: auto;
+        position: absolute;
+        top: 30%;
+        width: 56%;
+        background-image: url('../images/Main/backgroundB.png');
+        background-repeat: no-repeat;
+        padding: 8% 8% 8% 8%;
+        background-position: center;
+        background-size: contain;
+        height: 32%;
+        left: 14%;
+    }
+
+    #donation_details #noteHolder {
+        text-align: right;
+        overflow: hidden;
+        overflow-y: auto;
+        position: absolute;
+        border: none;
+        top: 30%;
+        width: 56%;
+        height: 32%;
+        left: 14%;
+        padding: 8% 8% 8% 8%;
+        background-color: transparent;
+        direction: rtl;
+    }
+
+    #donation_details #saveNote {
+        width: 40%;
+        height: 9%;
+        border: none;
+        background: transparent;
+        background-image: url('../images/Donation/confirm.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+        position: absolute;
+        left: 30%;
+        top: 75%;
+    }
+
+/* Pesach */
+.pesach {
+    width: 30% !important;
+}
+
+#donatePage #coin_0_5.pesach {
+    left: 66%;
+    top: 51%;
+}
+
+#donatePage #coin_0_1.pesach {
+    left: 66%;
+}
+
+#donatePage #coin_10.pesach {
+    top: 52%;
+    width: 28% !important;
+}
+
+#donatePage #coin_5.pesach {
+    left: 2%;
+}
+
+/*Kaparot*/
+#rooster {
+    position: absolute;
+    top: 9%;
+    z-index: 99;
+    width: 48%;
+    height: 26%;
+    right: 3%;
+}
+
+#donationNote.kaparot {
+    top: 19.5% !important;
+    right: 55.5% !important;
+    width: 40% !important;
+    padding: 0.5% 0 1% 0 !important;
+}
+
+#coin_other.kaparot {
+    background-image: url("../images/Donation/hakdasha_btn.png");
+    font-size: 90%;
+    border: none;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-color: #EFEFEF;
+    height: 6%;
+    display: inline-block;
+    padding: 0.5% 0 1% 0;
+    outline: none;
+    width: 40% !important;
+    top: 27% !important;
+    left: 4.5% !important;
+    float: left;
+}
+
+hr {
+    position: absolute;
+    width: 90%;
+    top: 35%;
+    left: 5%;
+}
+
+#kaparotFor {
+    position: absolute;
+    top: 39%;
+    right: 0%;
+    text-align: center;
+    width: 100%;
+    margin-right: 2%;
+}
+
+    #kaparotFor > input[type="text"] {
+        background: url(../images/Donation/Kaparot/text_box_pidion.png) no-repeat;
+        background-size: 100% 100%;
+        border: none;
+        outline: none;
+        width: 27%;
+        height: 6%;
+        margin-left: 2%;
+        margin-right: 2%;
+        text-align: center;
+    }
+
+#nosach {
+    position: absolute;
+    top: 44%;
+    left: 0;
+    width: 98%;
+}
+
+/*Parnes Yom*/
+#vilon {
+    position: absolute;
+    top: 14%;
+    left: -1%;
+    width: 100%;
+    z-index: -1;
+}
+
+#hebrewCalendar {
+    background-image: url("../images/Donation/hakdasha_btn.png");
+    width: 40%;
+    font-size: 90%;
+    position: absolute;
+    top: 70%;
+    right: 7.5%;
+    border: none;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-color: #EFEFEF;
+    height: 6%;
+    display: inline-block;
+    padding: 0.5% 0 2% 0;
+    outline: none;
+    text-align: center;
+}
+
+#parnesYomDonation {
+    background-image: url("../images/Donation/hakdasha_btn.png");
+    width: 40%;
+    font-size: 90%;
+    position: absolute;
+    top: 70%;
+    left: 4.5%;
+    border: none;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-color: #EFEFEF;
+    height: 6%;
+    text-indent: 0.9em;
+    display: inline-block;
+    padding: 0.5% 9% 2% 0;
+    outline: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+/*
+.multicalendar {
+    z-index: 99999;
+}
+*/
+
+#pickCoinText.parnas {
+    right: 1%;
+    margin-top: -12%;
+    float: right;
+    font: "SPACER REGULAR";
+    text-align: center;
+    width: 100% !important;
+    position: absolute;
+}
+
+#upperTextParnas {
+    font-family: "SPACER BOLD";
+}
+
+/*Food*/
+#pickCoinText.food {
+    top: 20% !important;
+}
+
+.products {
+    position: absolute;
+    left: 0;
+    width: 420%;
+    top: 23%;
+    list-style: none;
+    overflow: hidden;
+}
+
+    .products .item {
+        width: 6%;
+        display: inline-block;
+        float: left;
+        margin: 0 3.7% 0 0;
+    }
+
+        .products .item:first-child {
+            margin-left: 9%;
+        }
+
+        .products .item img {
+            width: 135%;
+            height: 50%;
+            z-index:100;
+        }
+
+#showNext, #showPrev {
+    position: absolute;
+    top: 27.5%;
+    z-index: 9;
+    height: 33%;
+    width: 20%;
+    background-color: rgba(162,208,229,0.8);
+    border: none;
+    outline: none;
+    padding: 0 15%;
+    z-index:101;
+}
+
+#showPrev {
+    left: -1%;
+}
+
+#donatePage #charityImg.food {
+    float: left;
+    width: 125%;
+    top: 0%;
+    left: -8%;
+    height: 100%;
+    position: absolute;
+    z-index: 95;
+}

@@ -1,0 +1,154 @@
+#remindersHeader {
+    position: absolute;
+    top: 18%;
+    background-color: transparent;
+    float: left;
+    height: 103%;
+    width: 99.5%;
+}
+
+#remindersHeader a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+#remindersPage #stripRemindersContainer {
+    background-color: #EFEFEF;
+    position: fixed;
+    height: 10%;
+    float: left;
+    width: 100%;
+    top: 9%;
+}
+
+#remindersPage li .remove {
+    background-repeat: no-repeat;
+    background-size: 100%;
+    /* float: left; */
+    width: 9%;
+    height: 6%;
+    position: absolute;
+    left: 8%;
+}
+
+#remindersPage .no_reminders_text{
+    font-size: 38px;
+	text-align: center;
+	margin-top: 48%;
+	margin-left: 6%;
+	margin-right: 6%
+}
+
+#remindersPage #remindersTab {
+    display: block;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 41%;
+    padding: 3% 2% 0% 2%;
+    text-align: -webkit-center;
+    top: 7%;
+    height: 64%;
+    right: 5%;
+    position: absolute;
+    color: #000000;
+    background: #ffffff;
+    border-top: solid #069FD8 2.5px;
+    border-left: solid #069FDB 2.5px;
+    border-right: solid #069FDB 2.5px;
+    border-top-left-radius: 0.5em;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0.5em;
+}
+
+#remindersPage #donationsTab {
+    display: block;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 41%;
+    padding: 3% 2% 0% 2%;
+    text-align: -webkit-center;
+    top: 13%;
+    height: 55%;
+    right: 50%;
+    position: absolute;
+    background: #065985;
+    border: solid #065985 2.5px;
+    border-right: solid #069FDB 2.5px;
+}
+
+#remindersPage .reminders_list{
+    width: 100%;
+    display: block;
+    clear: both;
+    overflow-x: auto;
+    overflow-y: auto;
+    padding-top: 33%;
+    padding-bottom: 40%;
+}
+
+#remindersPage .reminders_list li {
+    background-color: #ffffff;
+    background-repeat: no-repeat;
+    overflow-x: auto;
+    left: 0%;
+    font-size: 113%;
+    line-height: 1em;
+    position: inherit;
+    float: left;
+    width: 75.7%;
+    margin-left: 4.8%;
+    border-left: solid #069FD8 2.5px;
+    border-right: solid #069FD8 2.5px;
+    border-top: solid #069FD8 1.25px;
+    border-bottom: solid #069FD8 1.25px;
+    padding-top: 4%;
+    padding-right: 2%;
+    padding-left: 12%;
+    padding-bottom: 2%;
+}
+
+#remindersPage #reminderListItem{
+    float: left;
+    overflow-wrap: break-word;
+    width: 89%;
+    margin-left: 11%;
+    background-size: 15%;
+    background-repeat: no-repeat;
+    background-position: 10%;
+}
+
+#remindersPage #removeCell {
+    float: left;
+    margin-left: 0%;
+    margin-top: 1%;
+    position: absolute;
+}
+
+#remindersPage #stripRemindersBottom {
+    background-color: #EFEFEF;
+    position: fixed;
+    height: 11%;
+    float: left;
+    width: 100%;
+    bottom: 11%;
+}
+
+#remindersPage .addReminderBtn {
+    background-image: url('../../images/Profile/add_memo_heb.png');
+    position: absolute;
+    bottom: 12%;
+    left: 27%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 45%;
+    height: 27%;
+    border: 0px;
+    display: block;
+    text-align: center;
+    padding: 0% 1% 10% 0%;
+    margin: auto;
+    background-color: transparent;
+    border: none;
+}
+

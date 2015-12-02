@@ -1,0 +1,49 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta charset="utf-8">
+    <title>Coinz App</title>
+    <script type="text/javascript" charset="utf-8" src="../cordova.js"></script>
+    <script src="../js/lib/lazyload.js"></script>
+    <script src="../js/includeNoCordova.js"></script>
+    <script>
+    include.execute(function () {
+        loginForm.init();
+    });
+    </script>
+
+</head>
+<body>
+    <div class="coinzPage" id="login">
+        <div id="headerReg">
+            <div id="title">
+                כניסה לשירות
+            </div>
+        </div>
+
+        <div id="content">
+            <div id="bgImg"></div>
+            <form id="loginForm">
+                <input type="text" name="email" id="email" placeholder="אימייל" required />
+                <input type="password" name="password" id="password" placeholder="סיסמא" required />
+                <input type="submit" name="" id="loginBtn" class="loginbutton" value="" />
+            </form>
+
+            <div id="password_reminder">
+                שכחתי סיסמה
+            </div>
+
+            <div id="goToRegister">
+                לא רשום?
+            </div>
+
+
+
+
+        </div>
+
+    </div>
+
+</body>
+</html>

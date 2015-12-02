@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta charset="utf-8">
+    <title>Coinz App</title>
+    <script type="text/javascript" charset="utf-8" src="../cordova.js"></script>
+    <script src="../js/lib/lazyload.js"></script>
+    <script src="../js/includeNoCordova.js"></script>
+	<script>
+		include.execute(function(){
+			addReminderPage.init();
+		});
+	</script>
+</head>
+<body>
+
+<div class="coinzPage" id="addReminderPage">
+    <div id="header">
+        <div id="headerLogoImg"></div>
+        <div id="beitChabadLabelTop" class="locationTop"></div>
+        <div id="beitChabadLabelBottom" class="locationBottom"></div>
+        <div id="info"></div>
+    </div>
+    <div id="stripAddRemindersContainer">
+        <div id="addRemindersHeader">
+            <a href="reminders.html" id="remindersTab" class="remindersLink goToLink" >
+                התזכורות שלי
+            </a>
+            <a href="donations.html" id="donationsTab" class="donationsLink goToLink" >
+                התרומות שלי
+            </a>
+        </div>
+    </div>
+
+    <div id="content">
+        <img id="backgroundImg" src="../images/Profile/reka_back1.png"/>
+
+        <div id="titlePressOK">
+            בחר תזכורת ולחץ אישור
+        </div>
+
+        <form id="formAddReminder">
+
+            <ul id="typeSelect">
+                <li>
+                    <div id="yearlyShortText">
+                        חד שנתי
+                    </div>
+                    <input checked="checked" id="yearlyInput" type="radio" value="yearly" name="type" />
+                    <label id="yearlyLabel" for="yearlyInput" class="checked">
+                    </label>
+                    <div id="yearTextForYearly">
+תאריך:
+                    </div>
+
+                    <div id="hourTextForYearly">
+שעה:
+                    </div>
+                </li>
+
+                <li>
+                    <div id="weeklyShortText">
+שבועי
+                    </div>
+                    <input id="weeklyInput" type="radio" value="weekly" name="type" />
+                    <label id="weeklyLabel" for="weeklyInput">
+                    </label>
+                    <div id="hourDayTextForWeekly">
+יום:
+                    </div>
+                    <div id="hourTextForWeekly">
+שעה:
+                    </div>
+                </li>
+
+                <li>
+                    <input id="dailyInput" type="radio" value="daily" name="type" />
+                    <label id="dailyLabel" for="dailyInput">
+                        <div id="dailyText">
+יומי בשעה:
+                        </div>
+                 </label>
+                </li>
+
+            </ul>
+
+            <div id="stripContainer">
+
+            <ul id="formOptions" class="yearly_options">
+
+                <li id="yearly">
+                    <select id="selectYearlyDay" name="jmonth_day" class="daySelect"></select>
+                    <select id="selectYearlyMonth" name="jmonth" class="monthSelect"></select>
+                    <select id="selectYearlyMin" name="yminutes" class="minuteSelect"></select>
+                    <select id="selectYearlyHour" name="yhour" class="hourSelect"></select>
+                    <input type="text" id="reminder_note"
+                           placeholder="ניתן להוסיף כאן שם לתזכורת"/>
+                </li>
+
+                <li id="weekly">
+                    <select id="selectWeeklyDay" name="week_day" class="weeklySelect">
+                        <option value="1">
+                            ראשון
+                        </option>
+                        <option value="2">
+        שני
+                        </option>
+                        <option value="3">
+        שלישי
+                        </option>
+                        <option value="4">
+        רביעי
+                        </option>
+                        <option value="5">
+        חמישי
+                        </option>
+                        <option value="6">
+        שישי
+                        </option>
+                        <option value="7">
+                        שבת
+                        </option>
+                    </select>
+                    <select id="selectWeeklyMin" name="wminutes" class="minuteSelect"></select>
+                    <select id="selectWeeklyHour" name="whour" class="hourSelect"></select>
+                </li>
+
+                <li id="daily">
+                    <select id="selectDailyMin" name="dminutes" class="minuteSelect"></select>
+                    <select id="selectDailyHour" name="dhour" class="hourSelect"></select>
+                </li>
+
+
+            </ul>
+
+            <button id="ok" type="submit">
+            </button>
+        </form>
+
+    </div>
+
+    <div id="footer">
+        <a href="main.html" class="main goToLink">
+        </a>
+        <a href="donate.html" class="donate goToLink">
+        </a>
+        <a href="msg.html" class="msg goToLink">
+        </a>
+        <a href="donations.html" class="profile goToLink active">
+        </a>
+    </div>
+
+</div>
+
+</body>
+</html>

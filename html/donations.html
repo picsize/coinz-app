@@ -1,0 +1,66 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta charset="utf-8">
+    <title>Coinz App</title>
+    <script type="text/javascript" charset="utf-8" src="../cordova.js"></script>
+    <script src="../js/lib/lazyload.js"></script>
+    <script src="../js/includeNoCordova.js"></script>
+	<script>
+		include.execute(function(){
+			donationsPage.init();
+		});
+	</script>
+</head>
+<body>
+
+<div class="coinzPage" id="donationsPage">
+    <<div id="header">
+    <div id="headerLogoImg"></div>
+    <div id="beitChabadLabelTop" class="locationTop"></div>
+    <div id="beitChabadLabelBottom" class="locationBottom"></div>
+    <div id="info"></div>
+</div>
+    <div id="stripProfileContainer">
+        <div id="profileHeader">
+            <a href="reminders.html" id="remindersTab" class="remindersLink goToLink" >
+    התזכורות שלי
+            </a>
+            <a href="donations.html" id="donationsTab" class="donationsLink goToLink" >
+    התרומות שלי
+            </a>
+        </div>
+    </div>
+
+    <ul class="donations_list"></ul>
+
+    <div id="donation_details">
+        <div id="stripContainer">
+            <div id="goBack"></div>
+        </div>
+        <div id="donationTextTitle">
+            תרומה זו מוקדשת לזכות
+        </div>
+        <!--<img id="donationFrame" />-->
+        <div id="donationText"></div>
+    </div>
+    
+    <div id="spinner"></div>
+
+    <div id="footer">
+        <a href="main.html" class="main goToLink">
+        </a>
+        <a href="donate.html" class="donate goToLink">
+        </a>
+        <a href="msg.html" class="msg goToLink">
+        </a>
+        <a href="donations.html" class="profile goToLink active">
+        </a>
+    </div>
+
+</div>
+
+</body>
+</html>

@@ -1,0 +1,173 @@
+#hebDate, #yom_yom_label, .text-box {
+    font: "SPACER REGULAR";
+}
+
+#welcomePage {
+    width: 100%;
+    height: 100vh;
+}
+
+.content {
+    width: 100%;
+    background-image: url('../images/Main/backgroundA.png');
+    background-repeat: no-repeat;
+    float: right;
+    margin-top: 13%;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#hebDate {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 17%;
+    margin-right: 26%;
+    position: absolute;
+    float: left;
+}
+
+#yom_yom_label {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 8px;
+}
+
+#hello_user {
+    display: block;
+    line-height: 0em;
+    font-size: xx-large;
+    font-weight: bold;
+    font-family: "SPACER REGULAR";
+    margin-top: 10%;
+    float: left;
+    height: 6%;
+    margin-left: 11%;
+    width: 80%;
+}
+
+#hebcalDate {
+    display: block;
+    line-height: 0em;
+    font-size: x-large;
+    font-weight: bold;
+    font-family: "SPACER REGULAR";
+    margin-top: 9%;
+    float: left;
+    height: 6%;
+    width: 100%;
+    /* left: 1%; */
+    text-align: center;
+}
+
+#seprationLine {
+    border: solid 1px #E4E2E2;
+    top: 29%;
+    position: absolute;
+    width: 72%;
+    left: 14%;
+    float: left;
+}
+
+#imglogoInPage {
+    display: none;
+    width: 22%;
+    height: 35px;
+    margin-right: 89%;
+    ;
+}
+
+#info {
+    background-image: url('../images/Header/info.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    width: 12%;
+    position: absolute;
+    left: 1%;
+    top: 10%;
+    height: 61%;
+}
+
+#registerimglogoInPage {
+    display: block;
+    width: 50%;
+    height: 35px;
+    margin-right: 89%;
+    ;
+}
+
+#yom_yom_image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    height: 250px;
+}
+
+.text-box {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -3px;
+    width: 20em;
+    position: relative;
+    height: 200px;
+}
+
+#yom_yom_text {
+    padding: 4% 0% 0% 4%;
+    text-align: right;
+    display: block;
+    overflow: hidden;
+    font-size: larger;
+    overflow-y: auto;
+    margin-left: 12%;
+    float: left;
+    height: 32.5%;
+    margin-top: 2%;
+    width: 67%;
+    line-height: 125%;
+}
+
+#yom_yom_img {
+    background-image: url('../images/Main/backgroundB.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 62%;
+    display: block;
+    width: 90%;
+    margin: auto;
+    position: inherit;
+    margin-top: 12%;
+}
+
+#goToDonate {
+    width: 55%;
+    position: absolute;
+    left: 30%;
+    float: left;
+    top: 74%;
+}
+
+#goToDonateImg {
+    background-image: url('../images/Main/send_payment_now_heb.png');
+    background-repeat: no-repeat;
+    background-size: 90%;
+    width: 78%;
+    position: absolute;
+    left: 15%;
+    bottom: 9%;
+    float: left;
+    top: 70%;
+}
+
+#mainIframe {
+    margin-top: 13%;
+    width: 100%;
+    height: 100%;
+    padding-top: 3%;
+}

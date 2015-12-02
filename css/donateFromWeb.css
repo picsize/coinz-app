@@ -1,0 +1,309 @@
+#donatePage .secondary_title {
+    text-align: center;
+    font-size: 22px;
+    margin-top: 13px;
+    margin-bottom: 12px;
+    color:#600723;
+}
+
+#donatePage .content-container {
+    position: relative;
+    height: 0;
+    padding-bottom: 100%;
+}
+
+#donatePage #content {
+    font: "SPACER REGULAR";
+    width: 100%;
+    float: right;
+    background-color: #EFEFEF;
+    position: static;
+    top: 11%;
+}
+
+#donatePage #contentImg {
+    background-image: url('../images/Donation/donation_screen_bg.png');
+    background-repeat: no-repeat;
+    float: left;
+    top: -9%;
+    left: 0%;
+    background-size: contain;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-position-x: center;
+}
+
+#donatePage #donate_label{
+	color: #ffffff;
+	margin-top: -6%;
+	margin-right: auto;
+	text-align: center;
+	float: none;
+}
+
+#donatePage .coins {
+    float: left;
+    display: block;
+    width: 100%;
+    position: fixed;
+    top: 28%;
+    bottom: -25%
+}
+
+#donatePage .coins img {
+    width: 20%;
+    margin-left: 0%;
+    margin-top: 4%;
+    width: 20%;
+    margin-right: 3%;
+    vertical-align: -webkit-baseline-middle;
+    background-size: cover;
+}
+
+#donatePage #resetBtn{
+    background-image: url("../images/Donation/donate_screen_reset.png");
+    background-repeat: no-repeat;
+    border: none;
+    background-size: contain;
+    left: 27%;
+    top: 18%;
+    float: right;
+    width: 22%;
+    height: 8%;
+    background-color: transparent;
+    position: absolute;
+}
+
+#donatePage #pickCoinText{
+    left: 32%;
+    top: 9%;
+    float: right;
+    font: "SPACER REGULAR";
+    text-align: center;
+    width: 36%;
+    position: absolute;
+}
+
+#donatePage #balanceSum{
+    background-image: url("../images/Donation/donation_amount_heb.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: transparent;
+    font-size: 25px;
+    position: absolute;
+    top: 12.3%;
+    left: 51%;
+    border: none;
+    height: 6.5%;
+    text-indent: 0.5em;
+    /* margin-right: 27%; */
+    top: 19%;
+    float: right;
+    font: "SPACER REGULAR";
+    text-align: center;
+    width: 25%;
+    line-height: 2.0em;
+}
+
+    #donatePage #coin_other{
+        float: left;
+        width: 23%;
+        top: -11%;
+        position: absolute;
+        left: 37%;
+        z-index: 100;
+    }
+
+    .readyToMove{
+        margin-left: 10%;
+        float: left;
+        width: 23%;
+        margin-top: -5%;
+    }
+
+    #donatePage #coin_10{
+        left: -1%;
+        top: 11%;
+        float: right;
+        width: 23%;
+        position: absolute;
+        z-index: 105;
+    }
+
+    #donatePage #coin_5{
+        float: left;
+        width: 23%;
+        top: -4%;
+        position: absolute;
+        left: 9%;
+        z-index: 100;
+    }
+    #donatePage #coin_2{
+        left: 67%;
+        float: left;
+        width: 23%;
+        top: -4%;
+        position: absolute;
+        z-index: 100;
+    }
+
+    #donatePage #coin_1{
+        left: 8%;
+        float: left;
+        width: 20%;
+        top: 28%;
+        position: absolute;
+        z-index: 100;
+    }
+
+    #donatePage #coin_0_5{
+        left: 78%;
+        top: 11%;
+        float: left;
+        width: 23%;
+        position: absolute;
+        z-index: 100;
+    }
+
+    #donatePage #donateTargetOne{
+        left: 47%;
+        float: left;
+        top: 15%;
+        position: absolute;
+    }
+
+    #donatePage #charityImg{
+        float: left;
+        width: 92%;
+        top: 0%;
+        left: 0%;
+        height: 94%;
+        position: absolute;
+        z-index: 95;
+    }
+    #donatePage #coin_0_1{
+        left: 69%;
+        float: left;
+        width: 23%;
+        top: 27%;
+        position: absolute;
+        z-index: 100;
+    }
+
+    #donatePage #confirmDonate{
+        background-image: url("../images/Donation/confirm.png");
+        background-repeat: no-repeat;
+        border: none;
+        background-size: contain;
+        position: absolute;
+        width: 44%;
+        height: 9%;
+        background-color: transparent;
+        right: 28%;
+        top: 51%;
+    }
+
+    #otherDonate *
+    {
+        margin-left: 7%;
+        float: left;
+        width: 23%;
+    }
+    #donatePage #multiplyForm img{
+        width:60px;
+    }
+
+    #donatePage #multiplyForm label {
+        margin-top: 20px;
+        margin-right: 13px;
+       font-size: 18px;
+        color:#600723;
+    }
+
+    #donatePage #multiplyForm input,
+    #donatePage #otherDonate input
+    {
+        margin-top: 12px;
+        width: 70px;
+        margin-right: 11px;
+        font-size: 15px;
+        border: 1px solid #600723;
+        border-radius: 15px;
+        padding: 7px;
+    }
+
+    #donatePage #otherDonate input {
+        width:120px;
+        margin-right:15px;
+    }
+
+    #donatePage #multiplyForm button,
+    #donatePage #otherDonate button
+    {
+        border-radius: 13px;
+        border: 0;
+        padding: 6px 15px;
+        margin-top: 13px;
+        color: #ffffff;
+        font-size: 16px;
+        background-color: #600723;
+        float: left;
+    }
+
+    #donatePage #otherDonate {
+        margin-top:15px;
+    }
+
+    #donatePage #donationNote {
+        background-image: url("../images/Donation/dedication-input-box.png");
+        width: 85%;
+        font-size: 22px;
+        position: absolute;
+        top: 12%;
+        right: 5%;
+        border: none;
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-color: #EFEFEF;
+        height: 6%;
+        /* text-indent: 0.5em; */
+        display: inline-block;
+        padding: 0.5% 3% 2% 2%;
+}
+
+input .placeholder {
+    color: #F35F25;
+    text-indent: 0.5em;
+    display: inline-block;
+}
+
+#placeholder {
+    margin-right: 3px;
+    text-indent: 0.5em;
+}
+
+
+#donatePage .cashier {
+    position: fixed;
+    bottom: 3%;
+    left: 30%;
+    z-index: 5;
+    float: left;
+    width: 50px;
+    height: 24%;
+}
+
+#donatePage #cashierWrap{
+    position: absolute;
+    /* bottom: 3%; */
+    /* left: 30%; */
+    /* z-index: 5; */
+    float: left;
+    width: 34%;
+    height: 22%;
+    top: 28%;
+    left: 33%;
+    /* background-color: red; */
+
+}

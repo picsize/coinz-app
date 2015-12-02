@@ -1,0 +1,184 @@
+#msgPage {
+    background: #EFEFEF;
+}
+
+#msgPage .message_list{
+    width: 100%;
+    display: block;
+    clear: both;
+    overflow-x: auto;
+    overflow-y: auto;
+    padding-top: 20%;
+    position: inherit;
+    padding-bottom: 22%;
+}
+
+#msgPage .message_list li {
+    background: url("../images/Messages/box.png") no-repeat;
+    padding: 3% 8% 4% 4%;
+    font-size: larger;
+    width: 75%;
+    margin: auto;
+    background-color: #EFEFEF;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    background-size: 100% 100%;
+    display: inherit;
+    vertical-align: middle;
+}
+
+#msgPage .message_list .decoLine{
+    background: url("../images/Messages/deco-line.png");
+    background-repeat: no-repeat;
+    padding: 3% 3% 3% 3%;
+    font-size: larger;
+    width: 40%;
+    margin: auto;
+    background-size: contain;
+    margin-bottom: 0%;
+    background-color: #EFEFEF;
+    margin-top: 2%;
+}
+
+#message_details {
+    display: none;
+    padding-top: 18%;
+    background: #EFEFEF;
+    padding-bottom: 30%;
+    position: inherit;
+}
+
+#message_details #goBack {
+    background-image: url('../images/Buttons/back.png');
+    background-size: contain;
+    width: 24%;
+    float: left;
+    height: 62%;
+    background-repeat: no-repeat;
+    top: 25%;
+    left: 0%;
+    position: absolute;
+    z-index: 1000;
+}
+
+#message_details #clickForFullScreen {
+    background-image: url('../images/Buttons/full_screen_heb.png');
+    background-size: contain;
+    width: 24%;
+    float: left;
+    height: 62%;
+    background-repeat: no-repeat;
+    top: 25%;
+    left: 39%;
+    position: absolute;
+    z-index: 1000;
+}
+
+#message_details #stripContainer {
+    background-color: #EFEFEF;
+    position: fixed;
+    height: 8%;
+    float: left;
+    width: 100%;
+    top: 8.5%;
+    z-index: 1;
+}
+
+#message_details #imgContainer {
+    margin-top: 14%;
+    height: 26%;
+    width: 100%;
+}
+
+
+#message_details #vidContainer {
+    margin-top: 14%;
+    margin-bottom: 3%;
+    width: 94%;
+    border: solid #069FD8 1.5px;
+    float: left;
+    background-color: transparent;
+    margin-left: 3%;
+    top: 28%;
+    z-index: 0;
+    height: 300px;
+    z-index: 0;
+}
+
+#message_details #msgImg{
+    display: block;
+}
+
+#message_details #videoIframe{
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+
+#msgContent {
+    width: 94%;
+    border: solid #069FD8 1.5px;
+    float: left;
+    background-color: #ffffff;
+    margin-left: 3%;
+    top: 68%;
+    text-align: -webkit-right;
+    margin-bottom: 38%;
+}
+
+#message_details img {
+    width: 94%;
+    padding: 2px 2px 2px 2px;
+    border: solid #069FD8 1.5px;
+    float: left;
+    margin-left: 2.5%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    background-color: #ffffff;
+    height: 300px;
+}
+
+#message_details #titleOfMsg {
+    font: "SPACER BOLD";
+    padding: 2% 2%;
+    font-size: 20px;
+    color: grey;
+    color: #666565;
+    text-align: right;
+    margin-top: 2%;
+    font-weight: bold;
+    width: 90%;
+    z-index: 1000;
+}
+
+#message_details #text {
+    padding: 2% 2%;
+    font-size: 20px;
+    color: grey;
+    color: #666565;
+    font: "SPACER REGULAR";
+    line-height: 130%;
+    text-align: right;
+    margin-top: 2.5%;
+}
+
+#message_details .decoLine{
+    background: url("../images/Messages/deco-line.png");
+    background-repeat: no-repeat;
+    width: 94%;
+    margin: auto;
+    background-size: contain;
+    background-color: #EFEFEF;
+    float: left;
+    position: inherit;
+    margin-top: -32%;
+    height: 20px;
+    margin-left: 3%;
+    background-position: center;
+}
+
+#message_details #dummySpace{
+    width: 100%;
+    height: 100px;
+    float: left;
+}

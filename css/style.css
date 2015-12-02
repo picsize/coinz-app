@@ -1,0 +1,190 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+.ui-mobile, .ui-mobile .ui-page {
+    min-height: 100% !important;
+}
+
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+    padding-top: 20.5%;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+@font-face {
+    font-family: "SPACER REGULAR";
+    src: url("../fonts/SpacerRegular.ttf")
+    format("truetype");
+}
+
+@font-face {
+    font-family: "SPACER BOLD";
+    src: url("../fonts/SpacerBold.TTF")
+    format("truetype");
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    text-align: right;
+    direction: rtl;
+    font: "SPACER REGULAR";
+    background-color: #EFEFEF;
+}
+
+body div,
+body input
+{
+    font: "SPACER REGULAR";
+}
+
+#splash {
+    background-image: url('../images/Splash/splash_screen_heb.png');
+    width:100%;
+    background-size: cover;
+}
+
+
+a:visited {
+    color: #00A7E8;
+}
+
+#BH {
+    font-size: 18px;
+    color: #ffffff;
+    text-align: right;
+    position: absolute;
+    left: 50%;
+    top: 1%;
+}
+
+
+#header{
+    background-image: url('../images/Header/header.png');
+    background-size: contain;
+    text-align: center;
+    width: 100%;
+    font-size: 22px;
+    font: "SPACER REGULAR";
+    background-repeat: no-repeat;
+    padding-bottom: 18%;
+    position: fixed;
+    /* height: 0px; */
+    top: 0%;
+    color: #ffffff;
+    z-index: 100;
+}
+
+#headerLogoImg {
+    background-image: none;
+    background-size: contain;
+    width: 10.5%;
+    height: 6%;
+    position: fixed;
+    right: 2%;
+    top: 1.7%;
+    border: none;
+    background-repeat: no-repeat;
+}
+
+#info {
+    background-image: url('../images/Header/info.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    width: 12%;
+    position: absolute;
+    left: 3%;
+    top: 21%;
+    height: 61%;
+}
+
+#header #beitChabadLabelTop {
+    top: 15%;
+    left: 10%;
+    margin-right: 33%;
+    text-align: right;
+    float: none;
+    font-weight: bold;
+    color: #ffffff;
+    width: 75%;
+    font: "SPACER BOLD";
+    position: absolute;
+}
+
+#header #beitChabadLabelBottom {
+    top: 47%;
+    left: 10%;
+    margin-right: 30%;
+    text-align: right;
+    float: none;
+    color: #ffffff;
+    width: 75%;
+    font: "SPACER REGULAR";
+    position: absolute;
+}
+
+body .ui-body-c, body .ui-overlay-c {
+    text-shadow:0 0 0;
+}
+
+.dynamic_height {
+    width:100%;
+    display:block;
+    clear:both;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+#title {
+    font: "SPACER BOLD";
+}
+
+

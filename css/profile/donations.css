@@ -1,0 +1,105 @@
+#donationsPage .donations_list{
+    width: 100%;
+    display: block;
+    clear: both;
+    overflow-x: auto;
+    overflow-y: auto;
+    padding-top: 28%;
+    padding-bottom: 33%;
+}
+
+#donationsPage .donations_list li {
+    background-color: #ffffff;
+    background-repeat: no-repeat;
+    overflow-x: auto;
+    left: 0%;
+    font-size: 113%;
+    line-height: 1em;
+    position: inherit;
+    float: left;
+    width: 75.3%;
+    margin-left: 4.9%;
+    border-left: solid #069FD8 2.5px;
+    border-right: solid #069FD8 2.5px;
+    border-top: solid #069FD8 1.25px;
+    border-bottom: solid #069FD8 1.25px;
+    padding-top: 4%;
+    padding-right: 2%;
+    padding-left: 12%;
+    padding-bottom: 2%;
+}
+
+#donationsPage #donation_cell{
+    float: left;
+    overflow-wrap: break-word;
+    width: 89%;
+    margin-left: 11%;
+    background-size: 15%;
+    background-repeat: no-repeat;
+    background-position: 10%;
+}
+
+#donation_details {
+    display:none;
+    padding-top: 0%;
+    padding-bottom: 0%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: right;
+    margin-top: 18%;
+}
+
+#donation_details #goBack {
+    background-image: url('../../images/Buttons/back.png');
+    background-size: contain;
+    width: 100%;
+    float: left;
+    /* height: 5%; */
+    background-repeat: no-repeat;
+    top: 19%;
+    /* margin-bottom: 0%; */
+    position: absolute
+}
+
+#donation_details #stripContainer {
+    background-color: #EFEFEF;
+    position: fixed;
+    height: 9%;
+    float: left;
+    width: 100%;
+    top: 10%;
+    z-index: 100;
+}
+
+#donation_details #donationTextTitle{
+    font-family: "SPACER BOLD";
+    /* padding: 1% 13% 10% 10%; */
+    font-size: 32px;
+    color: grey;
+    color: #666565;
+    top: 24%;
+    position: absolute;
+    float: left;
+    /* left: 13%; */
+    width: 100%;
+    text-align: center;
+}
+
+#donation_details #donationText{
+    text-align: right;
+    overflow: hidden;
+    overflow-y: auto;
+    position: absolute;
+    top: 32%;
+    width: 56%;
+    background-image: url('../../images/Main/backgroundB.png');
+    background-repeat: no-repeat;
+    padding: 8% 8% 8% 8%;
+    background-position: center;
+    background-size: contain;
+    height: 32%;
+    left: 14%;
+}
+
+

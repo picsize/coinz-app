@@ -1,0 +1,94 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, target-densityDpi=device-dpi" />
+    <meta charset="utf-8">
+    <title>Coinz App</title>
+    <script type="text/javascript" charset="utf-8" src="../cordova.js"></script>
+    <script src="../js/lib/lazyload.js"></script>
+    <script src="../js/includeNoCordova.js"></script>
+</head>
+<body>
+    <div class="coinzPage" id="donatePage">
+        <div id="header">
+            <div id="headerLogoImg"></div>
+            <div id="beitChabadLabelTop" class="locationTop"></div>
+            <div id="beitChabadLabelBottom" class="locationBottom"></div>
+            <div id="info"></div>
+        </div>
+        <div class="content" id="content">
+            <div class="container">
+                <input type="button" id="donationNote" value="כתוב הקדשה" />
+                <select id="moneyType">
+                    <option data-gotopage="usdBillDonate.html">שטרות $</option>
+                    <option data-gotopage="usdCoinsDonate.html">מטבעות $</option>
+                    <option data-gotopage="donate.html"> מטבעות ₪</option>
+                    <option data-gotopage="donateBills.html">שטרות ₪</option>
+                    <option data-gotopage="poundsCoinsDonate.html">מטבעות £</option>
+                    <option data-gotopage="poundsBillDonate.html">שטרות £</option>
+                    <option data-gotopage="euroBillDonate.html">שטרות €</option>
+                    <option data-gotopage="euroCoinsDonate.html">מטבעות €</option>
+                    <option data-gotopage="kaparot.html">פדיון כפרות</option>
+                    <option data-gotopage="food.html">תרומת מזון</option>
+                    <option data-gotopage="parnesYom.html">פרנס יום</option>
+                    <option data-gotopage="pesach.html">לכבוד פסח</option>
+                    <option data-gotopage="shabbat.html">לכבוד שבת</option>
+                </select>
+                <div id="contentImg"></div>
+                <img src="../images/Donation/Money/USDollars/100dollar.png" class="coinToDrop usdBills" id="coin_5" value="100" />
+                <img src="../images/Donation/other.png" class="otherCoinToDrop" id="coin_other" value="-1" />
+                <img src="../images/Donation/Money/USDollars/20dollar.png" class="coinToDrop" id="coin_10" value="20" />
+                <img src="../images/Donation/Money/USDollars/1_dollar.png" class="coinToDrop" id="coin_1" value="1" />
+                <button id="approveBtnUSD"></button>
+                <div id="donateTargetOne"></div>
+                <div id="pickCoinText">
+                    גרור שטרות לקופה ולחץ "אשר"
+                </div>
+                <div id="balanceSum" class="usd"></div>
+                <img src="../images/Donation/Money/USDollars/5dollar.png" class="coinToDrop usdBills" id="coin_2" value="5" />
+                <img src="../images/Donation/Money/USDollars/10dollar.png" class="coinToDrop" id="coin_0_5" value="10" />
+                <img src="../images/Donation/Money/USDollars/50dollar.png" class="coinToDrop" id="coin_0_1" value="50" />
+                <div id="cashierWrap">
+                    <img class="cashier" src="../images/Donation/new_kupa.png" id="charityImg" value="0" />
+                </div>
+                <div class="donationArea"></div>
+                <button id="sendKupaToPayment"></button>
+                <div id="kupaTotal" class="ils"></div>
+                <!--<div id="kupaSumText">
+                    סכום שהצטבר בקופת הצדקה
+                </div>-->
+
+            </div>
+        </div>
+
+        <div id="donation_details">
+            <div id="stripContainer">
+                <div id="goBack"></div>
+            </div>
+            <div id="donationTextTitle">
+                תרומה זו מוקדשת לזכות
+            </div>
+            <div id="donationFrame"> </div>
+            <textarea id="noteHolder" placeholder="כתוב הקדשה"></textarea>
+            <button id="saveNote"></button>
+        </div>
+
+        <div id="footer">
+            <a href="main.html" class="main goToLink">
+            </a>
+            <a href="donate.html" class="donate goToLink active">
+            </a>
+            <a href="msg.html" class="msg goToLink">
+            </a>
+            <a href="donations.html" class="profile goToLink">
+            </a>
+        </div>
+    </div>
+
+    <script>
+        include.execute(function () {
+            usdDonatePage.init();
+        });
+    </script>
+</body>
+</html>

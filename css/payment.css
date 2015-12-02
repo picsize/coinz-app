@@ -1,0 +1,88 @@
+#title{
+    top: 12%;
+    text-align: center;
+    float: none;
+    color: #555555;
+    font-size: 20px;
+    width: 100%;
+    font-weight: bold;
+    font-family: "HELVETICA BOLD";
+    position: absolute;
+}
+
+#balance{
+    top: 18%;
+    text-align: center;
+    float: none;
+    color: #555555;
+    font-size: 20px;
+    width: 100%;
+    font-family: "HELVETICA REGULAR";
+    position: absolute;
+}
+
+#balanceSum{
+    top: 23%;
+    text-align: center;
+    float: none;
+    color: #555555;
+    font-size: 20px;
+    width: 100%;
+    font: "SPACER REGULAR";
+    position: absolute;
+}
+
+
+#useMyCreditCardBtn {
+    background-image: url('../images/Payment/credit_card.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 59%;
+    position: absolute;
+    left: 21%;
+    bottom: 9%;
+    float: left;
+    top: 32%;
+    height: 11%;
+}
+
+#goToPaypal {
+    background-image: url('../images/Payment/paypal.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 59%;
+    position: absolute;
+    left: 21%;
+    bottom: 9%;
+    float: left;
+    top: 45%;
+    height: 11%;
+}
+
+#pelepay {
+    background-image: url('../images/Payment/pele_pay.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 59%;
+    position: absolute;
+    left: 21%;
+    bottom: 9%;
+    float: left;
+    top: 58%;
+    height: 11%;
+}
+
+#callMeBtn {
+    background-image: url('../images/Payment/call_me.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 59%;
+    position: absolute;
+    left: 21%;
+    bottom: 9%;
+    float: left;
+    top: 71%;
+    height: 11%;
+}
+
+

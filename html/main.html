@@ -1,0 +1,53 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta charset="utf-8">
+    <title>Coinz App</title>
+    <script type="text/javascript" charset="utf-8" src="../cordova.js"></script>
+    <script src="../js/lib/lazyload.js"></script>
+    <script src="../js/includeNoCordova.js"></script>
+</head>
+<body>
+    <div class="coinzPage" id="welcomePage">
+        <div id="header">
+            <div id="headerLogoImg"></div>
+            <div id="beitChabadLabelTop" class="locationTop"></div>
+            <div id="beitChabadLabelBottom" class="locationBottom"></div>
+            <div id="info"></div>
+        </div>
+        <!--<div class="content" id="content">-->
+            <iframe id="mainIframe"></iframe>    
+            <!--<div id="hello_user"></div>
+            <div id="hebcalDate"></div>
+            <div id="seprationLine"></div>
+            <div id="yom_yom_text"></div>
+            <div id="yom_yom_img"></div>
+                -->
+            <!--
+            <div id="goToDonateImg"></div>
+            <a id="goToDonate" href="payment.html" class="donate goToLink">
+            </a>
+            -->
+
+
+            <div id="spinner"></div>
+        </div>
+        <div id="footer">
+            <a href="main.html" class="main goToLink active">
+            </a>
+            <a href="donate.html" class="donate goToLink">
+            </a>
+            <a href="msg.html" class="msg goToLink">
+            </a>
+            <a href="donations.html" class="profile goToLink">
+            </a>
+        </div>
+    <!--</div>-->
+    <script>
+        include.execute(function () {
+            mainPage.init();
+        });
+    </script>
+</body>
+</html>

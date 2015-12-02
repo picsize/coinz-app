@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta charset="utf-8">
+    <title>Coinz App</title>
+    <script type="text/javascript" charset="utf-8" src="../cordova.js"></script>
+    <script src="../js/lib/lazyload.js"></script>
+    <script src="../js/includeNoCordova.js"></script>
+	<script>
+		include.execute(function(){
+			messagePage.init();
+		});
+	</script>
+</head>
+<body>
+
+<div class="coinzPage" id="msgPage">
+    <div id="header">
+        <div id="headerLogoImg"></div>
+        <div id="beitChabadLabelTop" class="locationTop"></div>
+        <div id="beitChabadLabelBottom" class="locationBottom"></div>
+        <div id="info"></div>
+    </div>
+
+    <ul class="message_list"></ul>
+
+    <div id="message_details">
+        <div id="stripContainer">
+            <div id="goBack"></div>
+            <div id="clickForFullScreen"></div>
+        </div>
+
+        <div id="imgContainer">
+            <img id="msgImg" src=""/>
+        </div>
+
+        <div id="vidContainer">
+            <iframe id="videoIframe"></iframe>
+        </div>
+
+        <div id="msgContent">
+            <div id="titleOfMsg"></div>
+            <div id="text"></div>
+
+        </div>
+        <div class="decoLine"></div>
+        <div id="dummySpace"></div>
+
+    </div>
+    
+   <div id="spinner"></div>
+
+    <div id="footer">
+        <a href="main.html" class="main goToLink">
+        </a>
+        <a href="donate.html" class="donate goToLink">
+        </a>
+        <a href="msg.html" class="msg goToLink">
+        </a>
+        <a href="donations.html" class="profile goToLink">
+        </a>
+    </div>
+</div>
+</body>
+</html>
