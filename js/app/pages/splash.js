@@ -88,9 +88,10 @@ var splashPage = {
         var self = this;
         //Get hebrew date today
         var currentTime = new Date();
-        this.data.date.month = currentTime.getMonth() + 1;
-        this.data.date.day = currentTime.getDate();
-        this.data.date.year = currentTime.getFullYear();
+        self.data.date.month = currentTime.getMonth() + 1;
+        self.data.date.day = currentTime.getDate();
+        self.data.date.year = currentTime.getFullYear();
+        alert(JSON.stringify(self.data));
         callback();
     },
     redirect:function(){
