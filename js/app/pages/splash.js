@@ -64,7 +64,7 @@ var splashPage = {
             success: function(heb_date){
                 localStorage.setItem("hebrewDate", heb_date.hebrew);
                 callback(heb_date);
-            }
+            }, error: function (error) { alert(JSON.stringify(error)); }
         });
     },
     setHebDate: function (callback) {
