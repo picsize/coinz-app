@@ -55,7 +55,6 @@ var splashPage = {
             self.data.date.month = currentTime.getMonth() + 1;
             self.data.date.year = currentTime.getFullYear();
         }
-
         $.ajax({
             type: "GET",
             url: "http://www.hebcal.com/converter/",
