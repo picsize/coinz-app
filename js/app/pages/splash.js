@@ -97,8 +97,8 @@ var splashPage = {
     redirect:function(){
         setTimeout(function(){
             var user_exists = typeof(localStorage.getItem("CoinzUser")) == "string";
-            //var page_url = (user_exists ? "main.html" : "register.html");
-            var page_url = (user_exists ? "main.html" : "main.html");
+            var page_url = (user_exists ? "main.html" : "register.html");
+            //var page_url = (user_exists ? "main.html" : "main.html");
             coinz.goTo(page_url);
         }, 0);
     }
