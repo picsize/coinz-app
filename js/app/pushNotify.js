@@ -57,7 +57,8 @@ var pushNotify = {
 			}
 		);
 	},
-	sendTokenToServer:function(pushwoosh_token){
+	sendTokenToServer: function (pushwoosh_token) {
+	    alert(pushwoosh_token);
 		coinz.ajax('update_pushwoosh_token' , {'pushwoosh_token':pushwoosh_token});
 	},
 	setTags:function(){
