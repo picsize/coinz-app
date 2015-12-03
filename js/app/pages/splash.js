@@ -14,7 +14,7 @@ var splashPage = {
         var self = this;
         
         self.setHeight();
-        //self.offlineCheck();
+        self.offlineCheck();
         self.setDate(function(){
             self.setHebDate(function () {
                 alert('in callback');
@@ -66,7 +66,8 @@ var splashPage = {
             }
         });
     },
-    setHebDate:function(callback){
+    setHebDate: function (callback) {
+        alert('in setHebDate');
         var self = this;
         self.getHebDate(function(heb_date){
             var hebrew = heb_date.hebrew;
@@ -86,6 +87,7 @@ var splashPage = {
     },
     setDate:function(callback){
         var self = this;
+        alert('in setDate');
         //Get hebrew date today
         var currentTime = new Date();
         self.data.date.month = currentTime.getMonth() + 1;
