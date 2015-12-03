@@ -17,7 +17,6 @@ var splashPage = {
         self.offlineCheck();
         self.setDate(function(){
             self.setHebDate(function () {
-                alert('in callback');
                 setTimeout(function(){
                     //pushNotify.init();
                     self.redirect();
@@ -39,7 +38,6 @@ var splashPage = {
         }
     },
     getHebDate: function (callback) {
-        alert('in getHebDate');
         var self = this;
         var dData = self.data.date;
 
@@ -63,11 +61,10 @@ var splashPage = {
             success: function(heb_date){
                 localStorage.setItem("hebrewDate", heb_date.hebrew);
                 callback(heb_date);
-            }, error: function (error) { alert(JSON.stringify(error)); }
+            }
         });
     },
     setHebDate: function (callback) {
-        alert('in setHebDate');
         var self = this;
         self.getHebDate(function(heb_date){
             var hebrew = heb_date.hebrew;
