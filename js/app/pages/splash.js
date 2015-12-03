@@ -14,18 +14,16 @@ var splashPage = {
         var self = this;
         
         self.setHeight();
-        alert('after setHeight');
-        self.offlineCheck();
-        alert('after offlineCheck');
+        //self.offlineCheck();
         self.setDate(function(){
-            self.setHebDate(function(){
+            self.setHebDate(function () {
+                alert('in callback');
                 setTimeout(function(){
                     //pushNotify.init();
                     self.redirect();
                 }, 1000);
             });
         });
-        alert('after setDate');
     },
     offlineCheck: function(){
         window.offLineHandler = function(){
