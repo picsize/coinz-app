@@ -32,7 +32,7 @@ var pushNotify = {
 		if (!exists){
 			return false;
 		} else {
-			this.plugin = window.plugins.pushNotification;
+		    this.plugin = cordova.require("com.pushwoosh.plugins.pushwoosh.PushNotification");
 			this.plugin.onDeviceReady(this.config);
 			this.plugin.getPushToken(function(token){
 				if (token==''){
