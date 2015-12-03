@@ -67,7 +67,7 @@
     -->
 
   <!-- Define app icon for each platform. -->
-  <icon src="icon.png" />
+  <icon src="res/drawable-ldpi/icon.png" />
   <icon src="res/drawable-ldpi/icon.png"   gap:platform="android"    gap:density="ldpi" />
   <icon src="res/drawable-mdpi/icon.png"   gap:platform="android"    gap:density="mdpi" />
   <icon src="res/drawable-hdpi/icon.png"   gap:platform="android"    gap:density="hdpi" />
