@@ -38,7 +38,8 @@ var splashPage = {
             );
         }
     },
-    getHebDate:function(callback){
+    getHebDate: function (callback) {
+        alert('in getHebDate');
         var self = this;
         var dData = self.data.date;
 
@@ -46,13 +47,13 @@ var splashPage = {
         var currentTime = new Date();
         if(currentTime.getHours() > 19){
             currentTime.setDate(currentTime.getDate() + 1);
-            this.data.date.day = currentTime.getDate();
-            this.data.date.month = currentTime.getMonth()+1;
-            this.data.date.year = currentTime.getFullYear();
+            self.data.date.day = currentTime.getDate();
+            self.data.date.month = currentTime.getMonth() + 1;
+            self.data.date.year = currentTime.getFullYear();
         } else {
-            this.data.date.day = currentTime.getDate();
-            this.data.date.month = currentTime.getMonth()+1;
-            this.data.date.year = currentTime.getFullYear();
+            self.data.date.day = currentTime.getDate();
+            self.data.date.month = currentTime.getMonth() + 1;
+            self.data.date.year = currentTime.getFullYear();
         }
 
         $.ajax({
@@ -87,13 +88,11 @@ var splashPage = {
     },
     setDate:function(callback){
         var self = this;
-        alert('in setDate');
         //Get hebrew date today
         var currentTime = new Date();
         self.data.date.month = currentTime.getMonth() + 1;
         self.data.date.day = currentTime.getDate();
         self.data.date.year = currentTime.getFullYear();
-        alert(JSON.stringify(self.data));
         callback();
     },
     redirect:function(){
