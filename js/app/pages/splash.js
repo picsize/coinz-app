@@ -12,9 +12,11 @@ var splashPage = {
     },
     init:function(){
         var self = this;
+        
         self.setHeight();
+        alert('after setHeight');
         self.offlineCheck();
-
+        alert('after offlineCheck');
         self.setDate(function(){
             self.setHebDate(function(){
                 setTimeout(function(){
@@ -23,6 +25,7 @@ var splashPage = {
                 }, 1000);
             });
         });
+        alert('after setDate');
     },
     offlineCheck: function(){
         window.offLineHandler = function(){
@@ -95,8 +98,8 @@ var splashPage = {
     redirect:function(){
         setTimeout(function(){
             var user_exists = typeof(localStorage.getItem("CoinzUser")) == "string";
-            var page_url = (user_exists ? "main.html" : "register.html");
-            //var page_url = (user_exists ? "main.html" : "main.html");
+            //var page_url = (user_exists ? "main.html" : "register.html");
+            var page_url = (user_exists ? "main.html" : "main.html");
             coinz.goTo(page_url);
         }, 0);
     }
