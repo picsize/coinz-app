@@ -4,7 +4,6 @@ var include = {
 	},
 	scriptGroups:{
 		'lib':{
-			'lib/phonegap':['cordova'],
             'lib/widgets':['spin','online'],
             'lib/jquery':['jquery-1.11.0.min','jquery-ui-1.10.4.min',
                 'jquery.json-2.4','jquery.ui.touch-punch.min','jquery.jrumble.1.3.min',
